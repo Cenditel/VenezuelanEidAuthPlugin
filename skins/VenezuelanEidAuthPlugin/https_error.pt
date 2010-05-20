@@ -1,0 +1,25 @@
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      i18n:domain="venezuelaneidauthplugin">
+
+<body>
+
+    <div tal:define="errorNb python: context.REQUEST.get('errorNb', None);
+                     find_i python: context.REQUEST.get('QUERY_STRING', '').find('errorNb=');
+                     digit python: find_i != -1 and context.REQUEST.get('QUERY_STRING', '')[find_i+8:find_i+10] or '';
+                     errorNb python: not errorNb and digit.isdigit() and digit or errorNb;">
+        <h1 i18n:translate="">
+            Error when connecting with your eid card
+        </h1>
+        <br/>
+        <p i18n:translate="https_error_message">
+          You have a problem to connect you with your eid card.
+        </p>
+        <p tal:condition="python: errorNb">
+          <span i18n:translate="error_encountered">The encountered error is :</span>
+          <b i18n:translate="" tal:content="python: 'errorNb' + errorNb"/>
+        </p>
+
+    </div>
+</body>
+</html>

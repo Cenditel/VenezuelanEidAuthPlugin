@@ -1,0 +1,16 @@
+
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+#portal-personaltools .portalUser {
+background: transparent url(&dtml-portal_url;/user.gif) center left no-repeat;
+padding-left: 28px;
+}
+
+#portal-personaltools .portalEidUser {
+    background: transparent url(&dtml-portal_url;/eid_user_red.gif) center left no-repeat;
+    padding-left: 42px;
+}
+
+/* </dtml-with> */

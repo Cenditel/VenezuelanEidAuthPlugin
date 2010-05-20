@@ -1,0 +1,14 @@
+20060725 0.1 Beta1
+--> Tests have been writed !!!
+--> Some modifications and bugs have been corrected during the tests ;-)
+--> Added support for logged_in.cpy script
+--> More inserted in Plone through templates customization
+
+200607010.1 Alpha2
+--> Connection based on national register number :
+        --> connection is available manually (username+passwd) and with eID card
+        --> connect user with eID if subscribed (lookup national register number)
+--> Depends on CPDescriptive product for memberdata extension and subscribing form
+
+20060615 0.1 Alpha1
+--> Connect with an existing user, without testing

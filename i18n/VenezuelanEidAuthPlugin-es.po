@@ -1,0 +1,134 @@
+# translation of BelgianEidAuthPlugin.po to Spanish
+# Leonardo Caballero <leonardocaballero@gmail.com>, 2009.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: BelgianEidAuthPlugin 0.1\n"
+"POT-Creation-Date: 2009-10-31 12:42+0000\n"
+"PO-Revision-Date: 2009-10-29 17:00-0400\n"
+"Last-Translator: Leonardo Caballero <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: venezuelaneidauthplugin\n"
+"Preferred-encodings: utf-8 latin1\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#. Default: "Error when connecting with your eid card"
+#: ../skins/VenezuelanEidAuthPlugin/https_error.pt:11
+msgid "Error when connecting with your eid card"
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/logged_in.cpy:22
+msgid "Login failed"
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:49
+msgid "Login name not found."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:51
+msgid "Password incorrect."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:42
+msgid "Please enter your login name."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:44
+msgid "Please enter your password."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:21
+msgid "You must enable cookies before you can log in."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:31
+msgid "You must first subscribe to the site"
+msgstr ""
+
+#. Default: "Click the button to connect with your eID card"
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:92
+#, fuzzy
+msgid "connect_eid_button"
+msgstr "Cliquez sur le bouton ci-dessous pour vous connecter avec votre carte d'identité électronique."
+
+#. Default: "When you have subscribed, you have two possibilities to connect :"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:73
+#, fuzzy
+msgid "connect_eid_desc"
+msgstr "Connectez-vous à l'aide de votre \"carte d'identité électronique\" ou d'un \"nom d'utilisateur/mot de passe\"."
+
+#. Default: "Insert your card in the card reader before connection.  <a href=\"http://eid.belgium.be\">More informations</a>."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:82
+#, fuzzy
+msgid "connect_eid_insertandclick"
+msgstr "N'oubliez pas d'insérer votre carte dans votre lecteur avant de vous connecter.  Vous devez aussi avoir installé le programme de lecture et gestion de carte d'identité électronique belge sur votre ordinateur.  <a href='http://eid.belgium.be' target='_blank'>Plus d'informations concernant l'identification par carte d'identité électronique</a>."
+
+#. Default: "Using your eid card"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:80
+#, fuzzy
+msgid "connect_eid_with_eid"
+msgstr "Carte d'identité électronique"
+
+#. Default: "Using the username and password you received by mail"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:118
+#, fuzzy
+msgid "connect_eid_with_passwd"
+msgstr "Nom d'utilisateur et mot de passe"
+
+#. Default: "You did not accepted the certicate that your browser send to you.  If it is so, close your browser and try again but when you are asked to accept the certificate, please accept it"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:15
+#, fuzzy
+msgid "description_failed_eid_certificate"
+msgstr "Vous n'avez pas accepté le certificat que votre navigateur Internet vous a proposé.  Si c'est le cas, vous devez fermer votre navigateur et recommencer la connexion en acceptant le certificat"
+
+#. Default: "If you can not find out why you can not connect to this site using your eID card, <a href=\"contact-info\">you can send us a mail</a>"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:16
+#, fuzzy
+msgid "description_failed_eid_contact"
+msgstr "Si malgré tout vous ne parvenez pas à vous connecter, <a href='contact-info'>contactez-nous</a>"
+
+# login_eid_failed.pt
+#. Default: "You are trying to connect using your eID card but it seems that it is not possible at the moment.  The cause could be :"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:12
+#, fuzzy
+msgid "description_failed_eid_introduce"
+msgstr "Vous essayez de vous connecter à l'aide de votre carte d'identité électronique mais la connexion est refusée.  Vérifiez ci-dessous si vous pouvez en trouver la cause."
+
+#. Default: "You are not subscribed on this site.  If it is so, please ${join_form}"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:14
+#, fuzzy
+msgid "description_failed_eid_subscribe"
+msgstr "Vous ne vous êtes pas inscris au site.  Si c'est le cas, <a href='join_form'> inscrivez-vous</a>"
+
+#. Default: "The encountered error is :"
+#: ../skins/VenezuelanEidAuthPlugin/https_error.pt:19
+#, fuzzy
+msgid "error_encountered"
+msgstr "L'erreur d'authentification suivante est survenue :"
+
+#. Default: "What is the difference?  By connecting with your eID card, you will be redirected to a HTTPS site wich mean more security for transactions.  Moreover, when you connect with your eID card, you will be able to receive more services than when you are connected using the classical username/password method.  You will be warned in the site while a authentication with an eID card is required to access a particular service."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:74
+#, fuzzy
+msgid "help_difference_description"
+msgstr "<strong>Quelle est la différence?</strong>  En vous connectant avec votre carte d'identité électronique, vous serez redirigé vers un site HTTPS, ce qui signifie un site plus sécurisé.  Certains services ne sont disponibles que si vous êtes connecté avec votre carte d'identité électronique au lieu de la méthode classique \"nom d'utilisateur/mot de passe\".  Vous serez averti dans le site lorsqu'un service nécessitera une identification par carte d'identité électronique."
+
+#. Default: "You have a problem to connect you with your eid card."
+#: ../skins/VenezuelanEidAuthPlugin/https_error.pt:15
+#, fuzzy
+msgid "https_error_message"
+msgstr "Vous avez rencontré un problème pour vous connecter avec votre carte d'identité électronique."
+
+# join_form.pt
+#. Default: "The connection to the site is temporary suspended.  <a href=\"contact-info\">Contact the site administrator</a> for more informations."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:234
+#, fuzzy
+msgid "no_activated_plugin"
+msgstr "La connexion au site est momentanément suspendue, <a href='contact-info'>contactez l'administrateur du site</a> pour plus d'informations."
+

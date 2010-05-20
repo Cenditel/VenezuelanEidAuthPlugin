@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+
+<body>
+
+<div metal:fill-slot="main">
+  <div metal:define-macro="login_eid_failed">
+
+    <h1 i18n:translate="heading_sign_in_failure_auth">Sign-in failure</h1>
+    <p i18n:domain="venezuelaneidauthplugin" i18n:translate="description_failed_eid_introduce">You are trying to connect using your eID card but it seems that it is not possible at the moment.  The cause could be :</p>
+    <ul>
+    <li i18n:domain="venezuelaneidauthplugin" i18n:translate="description_failed_eid_subscribe">You are not subscribed on this site.  If it is so, please <a href="join_form" i18n:name="join_form">subscribe to this site</a></li>
+    <li i18n:domain="venezuelaneidauthplugin" i18n:translate="description_failed_eid_certificate">You did not accepted the certicate that your browser send to you.  If it is so, close your browser and try again but when you are asked to accept the certificate, please accept it</li>
+    <li i18n:domain="venezuelaneidauthplugin" i18n:translate="description_failed_eid_contact" tal:define="contact_link python:'contact-info'">If you can not find out why you can not connect to this site using your eID card, <a href="contact-info">you can send us a mail</a></li>
+    </ul>  
+  </div>
+</div>
+
+</body>
+</html>

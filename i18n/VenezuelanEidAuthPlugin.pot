@@ -1,0 +1,117 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-10-31 12:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: venezuelaneidauthplugin\n"
+
+#. Default: "Error when connecting with your eid card"
+#: ../skins/VenezuelanEidAuthPlugin/https_error.pt:11
+msgid "Error when connecting with your eid card"
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/logged_in.cpy:22
+msgid "Login failed"
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:49
+msgid "Login name not found."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:51
+msgid "Password incorrect."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:42
+msgid "Please enter your login name."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:44
+msgid "Please enter your password."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:21
+msgid "You must enable cookies before you can log in."
+msgstr ""
+
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:31
+msgid "You must first subscribe to the site"
+msgstr ""
+
+#. Default: "Click the button to connect with your eID card"
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:92
+msgid "connect_eid_button"
+msgstr ""
+
+#. Default: "When you have subscribed, you have two possibilities to connect :"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:73
+msgid "connect_eid_desc"
+msgstr ""
+
+#. Default: "Insert your card in the card reader before connection.  <a href=\"http://eid.belgium.be\">More informations</a>."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:82
+msgid "connect_eid_insertandclick"
+msgstr ""
+
+#. Default: "Using your eid card"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:80
+msgid "connect_eid_with_eid"
+msgstr ""
+
+#. Default: "Using the username and password you received by mail"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:118
+msgid "connect_eid_with_passwd"
+msgstr ""
+
+#. Default: "You did not accepted the certicate that your browser send to you.  If it is so, close your browser and try again but when you are asked to accept the certificate, please accept it"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:15
+msgid "description_failed_eid_certificate"
+msgstr ""
+
+#. Default: "If you can not find out why you can not connect to this site using your eID card, <a href=\"contact-info\">you can send us a mail</a>"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:16
+msgid "description_failed_eid_contact"
+msgstr ""
+
+#. Default: "You are trying to connect using your eID card but it seems that it is not possible at the moment.  The cause could be :"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:12
+msgid "description_failed_eid_introduce"
+msgstr ""
+
+#. Default: "You are not subscribed on this site.  If it is so, please ${join_form}"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:14
+msgid "description_failed_eid_subscribe"
+msgstr ""
+
+#. Default: "The encountered error is :"
+#: ../skins/VenezuelanEidAuthPlugin/https_error.pt:19
+msgid "error_encountered"
+msgstr ""
+
+#. Default: "What is the difference?  By connecting with your eID card, you will be redirected to a HTTPS site wich mean more security for transactions.  Moreover, when you connect with your eID card, you will be able to receive more services than when you are connected using the classical username/password method.  You will be warned in the site while a authentication with an eID card is required to access a particular service."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:74
+msgid "help_difference_description"
+msgstr ""
+
+#. Default: "You have a problem to connect you with your eid card."
+#: ../skins/VenezuelanEidAuthPlugin/https_error.pt:15
+msgid "https_error_message"
+msgstr ""
+
+#. Default: "The connection to the site is temporary suspended.  <a href=\"contact-info\">Contact the site administrator</a> for more informations."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:234
+msgid "no_activated_plugin"
+msgstr ""
+
