@@ -1,32 +1,35 @@
-PRESENTATION :
-==============
-VenezuelanEidAuthPlugin est un plugin d'authentification pour PAS (PluggableAuthService).  Ce plugin permet à un utilisateur de s'identifier à l'aide de sa carte d'identité électronique belge.
+PRESENTATION
+ VenezuelanEidAuthPlugin est un plugin d'authentification pour PAS (PluggableAuthService).
+ Ce plugin permet à un utilisateur de s'identifier à l'aide de sa carte d'identité électronique belge.
 
-L'identification classique par nom d'utilisateur et mot de passe fonctionne toujours.
+ L'identification classique par nom d'utilisateur et mot de passe fonctionne toujours.
 
-INSTALLTION :
-=============
-Attention, ce plugin nécessite PluggableAuthService version 1.2 (non testé avec une version plus ancienne).  Testé avec Plone 2.5rc2, Plone 2.5rc3, Plone 2.5 release.
+INSTALLTION
 
---> Copier le produit dans le répertoire 'Products' d'une instance Zope
---> Dans la ZMi, aller dans acl_users et ajouter un VenezuelanEidCardPlugin
---> Activer le plugin 
-    --> Cliquer sur le plgun créé et sélectionner toutes les fonctionnalités proposées (Authentication et Extraction)
-    --> Cliquer sur update
+ Attention, ce plugin nécessite PluggableAuthService version 1.2 (non testé avec une version plus ancienne).
 
---> Installation des templates et scripts
-    --> dans Plone : Configuration du site-->Ajout/suppression de programme-->VenezuelanEidAuthPlugin
+ Testé avec Plone 2.5rc2, Plone 2.5rc3, Plone 2.5 release.
+
+  1 Copier le produit dans le répertoire 'Products' d'une instance Zope
+  2 Dans la ZMi, aller dans acl_users et ajouter un VenezuelanEidCardPlugin
+  3 Activer le plugin 
+     1 Cliquer sur le plgun créé et sélectionner toutes les fonctionnalités proposées (Authentication et Extraction)
+     2 Cliquer sur update
+
+ Installation des templates et scripts
+   1 dans Plone : Configuration du site-->Ajout/suppression de programme-->VenezuelanEidAuthPlugin
     
---> Par défault, le produit CPDescriptive n'est pas requis "d'office", mais il est fortement recommandé de l'installer si on ne souhaite pas faire de manipulations manuelles supplémentaires
+ Par défault, le produit CPDescriptive n'est pas requis "d'office", mais il est fortement recommandé de l'installer si on ne souhaite pas faire de manipulations manuelles supplémentaires
 
-Vous devez également configurer un serveur Web (Apache, IIS) pour que celui-ci accepte HTTPS et les certificats SSL.
-Rendez-vous sur www.communesplone.be pour plus de détails.
+ Vous devez également configurer un serveur Web (Apache, IIS) pour que celui-ci accepte HTTPS et les certificats SSL.
 
-MODIFICATIONS DANS PLONE :
-==========================
-Modifications automatiques :
---> l'action login (le lien se connecter) de Plone change d'url, elle n'appelle plus l'actuelle page "login_form" ou un nom d'utilisateur et un mot de passe est demandé à l'utilisateur mais envoie l'utilisateur vers une page où il choisi son mode de connexion : mode classique (username+password) ou mode sécurisé (carte d'identité életronique)
+ Rendez-vous sur www.communesplone.be pour plus de détails.
 
-Modifications manuelles :
---> afin que l'utilisateur ne cherche pas après le lien "se connecter avec une carte eID" il vaut mieux enlever le portlet_login de left_slots et right_slots qui ne permet que la connexion username+password par défaut, ou alors, customizer le portlet_login pour lui adjoindre un lien "connexion eID"
---> une propriété pour le registre national doit exister dans portal_memberdata pour faire le rapprochement entre la carte eID et le compte Zope.  L'installation du produit CPDescriptive évite de le faire manuellement.
+MODIFICATIONS DANS PLONE
+
+ Modifications automatiques
+   * l'action login (le lien se connecter) de Plone change d'url, elle n'appelle plus l'actuelle page "login_form" ou un nom d'utilisateur et un mot de passe est demandé à l'utilisateur mais envoie l'utilisateur vers une page où il choisi son mode de connexion : mode classique (username+password) ou mode sécurisé (carte d'identité életronique)
+
+ Modifications manuelles
+   * afin que l'utilisateur ne cherche pas après le lien "se connecter avec une carte eID" il vaut mieux enlever le portlet_login de left_slots et right_slots qui ne permet que la connexion username+password par défaut, ou alors, customizer le portlet_login pour lui adjoindre un lien "connexion eID"
+   * une propriété pour le registre national doit exister dans portal_memberdata pour faire le rapprochement entre la carte eID et le compte Zope.  L'installation du produit CPDescriptive évite de le faire manuellement.

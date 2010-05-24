@@ -1,2 +1,2 @@
---> how to add properties to a user ?  Still use portal_memberdata ?
---> check if the national register number already exists for a subscribed member
+ * how to add properties to a user ?  Still use portal_memberdata ?
+ * check if the national register number already exists for a subscribed member
