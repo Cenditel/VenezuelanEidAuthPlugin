@@ -1,12 +1,12 @@
 # translation of BelgianEidAuthPlugin.po to Spanish
 # Leonardo Caballero <leonardocaballero@gmail.com>, 2009.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: BelgianEidAuthPlugin 0.1\n"
-"POT-Creation-Date: 2009-10-31 12:42+0000\n"
-"PO-Revision-Date: 2009-10-29 17:00-0400\n"
-"Last-Translator: Leonardo Caballero <leonardocaballero@gmail.com>\n"
+"POT-Creation-Date: 2011-02-28 21:35+0000\n"
+"PO-Revision-Date: 2011-03-01 11:18-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -22,113 +22,279 @@ msgstr ""
 #. Default: "Error when connecting with your eid card"
 #: ../skins/VenezuelanEidAuthPlugin/https_error.pt:11
 msgid "Error when connecting with your eid card"
-msgstr ""
+msgstr "Error cuando se estaba conectando con su tarjeta de identificación electrónica"
 
 #: ../skins/VenezuelanEidAuthPlugin/logged_in.cpy:22
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:52
 msgid "Login failed"
-msgstr ""
+msgstr "Inicio de sesión fallo"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:49
 msgid "Login name not found."
-msgstr ""
+msgstr "Nombre de usuario no encontrado."
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:51
 msgid "Password incorrect."
-msgstr ""
+msgstr "Contraseña incorrecta."
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:42
 msgid "Please enter your login name."
-msgstr ""
+msgstr "Por favor, ingrese us nombre de usuario."
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:44
 msgid "Please enter your password."
-msgstr ""
+msgstr "Por favor, introduzca su contraseña."
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:21
 msgid "You must enable cookies before you can log in."
-msgstr ""
+msgstr "Usted debe tener habilitado las cookies antes de iniciar su sesión de usuario"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:31
 msgid "You must first subscribe to the site"
-msgstr ""
+msgstr "Usted debe primero suscribirse al sitio Web"
 
 #. Default: "Click the button to connect with your eID card"
-#: ../skins/VenezuelanEidAuthPlugin/registered.pt:92
-#, fuzzy
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:94
 msgid "connect_eid_button"
-msgstr "Cliquez sur le bouton ci-dessous pour vous connecter avec votre carte d'identité électronique."
+msgstr "Haga clic en el botón para conectarse con su tarjeta de identificación electrónica"
 
 #. Default: "When you have subscribed, you have two possibilities to connect :"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:73
-#, fuzzy
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:77
 msgid "connect_eid_desc"
-msgstr "Connectez-vous à l'aide de votre \"carte d'identité électronique\" ou d'un \"nom d'utilisateur/mot de passe\"."
+msgstr "Cuando usted se haya suscrito, usted tiene dos posibilidades de conexión:"
 
-#. Default: "Insert your card in the card reader before connection.  <a href=\"http://eid.belgium.be\">More informations</a>."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:82
-#, fuzzy
-msgid "connect_eid_insertandclick"
-msgstr "N'oubliez pas d'insérer votre carte dans votre lecteur avant de vous connecter.  Vous devez aussi avoir installé le programme de lecture et gestion de carte d'identité électronique belge sur votre ordinateur.  <a href='http://eid.belgium.be' target='_blank'>Plus d'informations concernant l'identification par carte d'identité électronique</a>."
+#. Default: "More informations"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:88
+msgid "connect_eid_help"
+msgstr "Para más información"
+
+#. Default: "Insert your card in the card reader before connection."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:86
+msgid "connect_eid_insert_click"
+msgstr "Ingrese en su lector de tarjeta antes de hacer la conexión."
+
+#. Default: "Insert your card in the card reader before connection or to join"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:87
+msgid "connect_eid_insert_join"
+msgstr "Ingrese en su tarjeta en el lector de tarjeta antes de hacer la conexión o inscribirse."
 
 #. Default: "Using your eid card"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:80
-#, fuzzy
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:84
 msgid "connect_eid_with_eid"
-msgstr "Carte d'identité électronique"
+msgstr "Usando su tarjeta de identificación electrónica"
 
 #. Default: "Using the username and password you received by mail"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:118
-#, fuzzy
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:124
 msgid "connect_eid_with_passwd"
-msgstr "Nom d'utilisateur et mot de passe"
+msgstr "Usando el nombre de usuario y la contraseña que recibió por correo"
 
-#. Default: "You did not accepted the certicate that your browser send to you.  If it is so, close your browser and try again but when you are asked to accept the certificate, please accept it"
+#. Default: "You did not accepted the certicate that your browser send to you. If it is so, close your browser and try again but when you are asked to accept the certificate, please accept it"
 #: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:15
-#, fuzzy
 msgid "description_failed_eid_certificate"
-msgstr "Vous n'avez pas accepté le certificat que votre navigateur Internet vous a proposé.  Si c'est le cas, vous devez fermer votre navigateur et recommencer la connexion en acceptant le certificat"
+msgstr "Usted no ha aceptado el certificado que su navegador Web le envía a usted. Si es así, cierre el navegador y vuelva a intentarlo, pero cuando se le pide que acepte el certificado, por favor, acepte el certificado digital."
 
-#. Default: "If you can not find out why you can not connect to this site using your eID card, <a href=\"contact-info\">you can send us a mail</a>"
+#. Default: "If you can not find out why you can not connect to this site using your eID card, ${contact_info}"
 #: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:16
-#, fuzzy
 msgid "description_failed_eid_contact"
-msgstr "Si malgré tout vous ne parvenez pas à vous connecter, <a href='contact-info'>contactez-nous</a>"
+msgstr "Si no puede averiguar por qué no puede conectarse a este sitio con su tarjeta de identificación electrónica, ${contact_info}"
 
 # login_eid_failed.pt
-#. Default: "You are trying to connect using your eID card but it seems that it is not possible at the moment.  The cause could be :"
+#. Default: "You are trying to connect using your eID card but it seems that it is not possible at the moment. The cause could be :"
 #: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:12
-#, fuzzy
 msgid "description_failed_eid_introduce"
-msgstr "Vous essayez de vous connecter à l'aide de votre carte d'identité électronique mais la connexion est refusée.  Vérifiez ci-dessous si vous pouvez en trouver la cause."
+msgstr "Usted está tratando de conectarse a través de su tarjeta de identificación electrónica, pero parece que no es posible en este momento. La causa podría ser :"
 
-#. Default: "You are not subscribed on this site.  If it is so, please ${join_form}"
+#. Default: "You are not subscribed on this site. If it is so, please ${join_form}"
 #: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:14
-#, fuzzy
 msgid "description_failed_eid_subscribe"
-msgstr "Vous ne vous êtes pas inscris au site.  Si c'est le cas, <a href='join_form'> inscrivez-vous</a>"
+msgstr "Usted no esta suscrito a este sitio. Si eso es así, por favor ${join_form}"
+
+#. Default: "To obtain a username and password, you must first go to the ${join_form}"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:127
+msgid "description_no_account"
+msgstr "Para obtener un nombre de usuario y contraseña, usted debe ir primero al ${join_form}"
+
+#. Default: "certificate has expired"
+msgid "errorNb10"
+msgstr "certificado ha expirado"
+
+#. Default: "CRL not yet valid"
+msgid "errorNb11"
+msgstr "CRL aún no es válido"
+
+#. Default: "CRL has expired"
+msgid "errorNb12"
+msgstr "CRL ha expirado"
+
+#. Default: "error in certificate 'not before' field"
+msgid "errorNb13"
+msgstr ""
+
+#. Default: "error in certificate 'not after' field"
+#, fuzzy
+msgid "errorNb14"
+msgstr "error en el certificado del campo \"no después\""
+
+#. Default: "error in CRL 'last update' field"
+msgid "errorNb15"
+msgstr ""
+
+#. Default: "error in CRL 'next update' field"
+msgid "errorNb16"
+msgstr ""
+
+#. Default: "out of memory"
+msgid "errorNb17"
+msgstr "fuera de memoria"
+
+#. Default: "depth zero self signed certificate"
+#, fuzzy
+msgid "errorNb18"
+msgstr "profundidad cero certificado auto-firmado"
+
+#. Default: "self signed certificate in chain"
+msgid "errorNb19"
+msgstr "certificado autofirmado en cadena"
+
+#. Default: "unable to get issuer certificate"
+msgid "errorNb2"
+msgstr "incapaz de obtener el certificado del emisor"
+
+#. Default: "unable to get issuer certificate locally"
+msgid "errorNb20"
+msgstr "incapaz de obtener el certificado del emisor localmente"
+
+#. Default: "unable to verify leaf signature"
+#, fuzzy
+msgid "errorNb21"
+msgstr "no puede verificar la firma de la hoja"
+
+#. Default: "certificate chain too long"
+msgid "errorNb22"
+msgstr "la cadena de certificado es demasiado larga"
+
+#. Default: "certificate revoked"
+msgid "errorNb23"
+msgstr "certificado revocado"
+
+#. Default: "invalid certification authority"
+msgid "errorNb24"
+msgstr "autoridad emisora de certificados no válida"
+
+#. Default: "path length exceeded"
+msgid "errorNb25"
+msgstr "la longitud de ruta superada"
+
+#. Default: "invalid purpose"
+msgid "errorNb26"
+msgstr "propósito válido"
+
+#. Default: "certificate not trusted"
+msgid "errorNb27"
+msgstr "certificado no confiable"
+
+#. Default: "certificate rejected, or no certificate provided"
+msgid "errorNb28"
+msgstr "certificado rechazado, o no hay certificado suministrado"
+
+#. Default: "subject issuer mismatch"
+msgid "errorNb29"
+msgstr "no coinciden el asunto del emisor"
+
+#. Default: "unable to get CRL"
+msgid "errorNb3"
+msgstr "incapaz de obtener CRL"
+
+#. Default: "'akid' skid mismatch"
+msgid "errorNb30"
+msgstr ""
+
+#. Default: "'akid' issuer serial mismatch"
+msgid "errorNb31"
+msgstr ""
+
+#. Default: "'keyusage' different from 'certsign'"
+msgid "errorNb32"
+msgstr ""
+
+#. Default: "unable to get CRL issuer"
+msgid "errorNb33"
+msgstr "no puede conseguir emisor CRL"
+
+#. Default: "unhandled critical extension"
+msgid "errorNb34"
+msgstr "inmanipulable extensión crítica"
+
+#. Default: "'keyusage' not for CRL signing"
+msgid "errorNb35"
+msgstr ""
+
+#. Default: "unhandled critical CRL extension"
+msgid "errorNb36"
+msgstr "inmanipulable extensión CRL crítica"
+
+#. Default: "unable to decrypt certificate signature"
+msgid "errorNb4"
+msgstr "incapaz de descifrar la firma del certificado"
+
+#. Default: "unable to decrypt CRL signature"
+msgid "errorNb5"
+msgstr "incapaz de descifrar la firma de CRL"
+
+#. Default: "unable to decode issuer public key"
+msgid "errorNb6"
+msgstr "incapaz de decodificar clave pública del emisor"
+
+#. Default: "certificate signature failure"
+msgid "errorNb7"
+msgstr "error de certificado de firma"
+
+#. Default: "CRL signature failure"
+msgid "errorNb8"
+msgstr "falla la firma CRL"
+
+#. Default: "certificate not yet valid"
+msgid "errorNb9"
+msgstr "certificado aún no es válido"
 
 #. Default: "The encountered error is :"
 #: ../skins/VenezuelanEidAuthPlugin/https_error.pt:19
-#, fuzzy
 msgid "error_encountered"
-msgstr "L'erreur d'authentification suivante est survenue :"
+msgstr "El error de autenticación detectado es siguiente :"
 
-#. Default: "What is the difference?  By connecting with your eID card, you will be redirected to a HTTPS site wich mean more security for transactions.  Moreover, when you connect with your eID card, you will be able to receive more services than when you are connected using the classical username/password method.  You will be warned in the site while a authentication with an eID card is required to access a particular service."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:74
-#, fuzzy
+# join_form.pt
+#. Default: "If you forget your manual login (username and password),<a href='mail_password_form?userid=${member_id}'>please click here.</a>"
+msgid "help_about_password"
+msgstr ""
+
+#. Default: "What is the difference? By connecting with your eID card, you will be redirected to a HTTPS site wich mean more security for transactions. Moreover, when you connect with your eID card, you will be able to receive more services than when you are connected using the classical username/password method. You will be warned in the site while a authentication with an eID card is required to access a particular service."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:78
 msgid "help_difference_description"
-msgstr "<strong>Quelle est la différence?</strong>  En vous connectant avec votre carte d'identité électronique, vous serez redirigé vers un site HTTPS, ce qui signifie un site plus sécurisé.  Certains services ne sont disponibles que si vous êtes connecté avec votre carte d'identité électronique au lieu de la méthode classique \"nom d'utilisateur/mot de passe\".  Vous serez averti dans le site lorsqu'un service nécessitera une identification par carte d'identité électronique."
+msgstr "<strong>¿Cuál es la diferencia?</strong> Mediante la conexión con su tarjeta de identificación electrónica, será redirigido a un sitio HTTPS que significa más seguridad para las transacciones. Por otra parte, cuando se conecta con su tarjeta de identificación electrónica, que será capaz de recibir más servicios que cuando se conecta utilizando con el clásico método de \"nombre de usuario / contraseña\". A usted se le advirtió en el sitio mientras que mientras realizara una autenticación con una tarjeta de identificación electrónica es necesario para acceder a un servicio en particular."
 
 #. Default: "You have a problem to connect you with your eid card."
 #: ../skins/VenezuelanEidAuthPlugin/https_error.pt:15
-#, fuzzy
 msgid "https_error_message"
-msgstr "Vous avez rencontré un problème pour vous connecter avec votre carte d'identité électronique."
+msgstr "Usted tiene un problema al conectase usted con su tarjeta de identificación electrónica."
+
+#. Default: "Contact the site administrator"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:244
+msgid "label_contact_info"
+msgstr "Contacte al administrador del sitio Web"
+
+#. Default: "you can send us a mail"
+#: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:16
+msgid "label_contact_info_send_email"
+msgstr "usted puede enviarnos un correo electrónico"
+
+#. Default: "registration form"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:127
+msgid "label_join_form"
+msgstr "formulario de registro"
 
 # join_form.pt
-#. Default: "The connection to the site is temporary suspended.  <a href=\"contact-info\">Contact the site administrator</a> for more informations."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:234
-#, fuzzy
+#. Default: "The connection to the site is temporary suspended. ${contact_info} for more informations."
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:244
 msgid "no_activated_plugin"
-msgstr "La connexion au site est momentanément suspendue, <a href='contact-info'>contactez l'administrateur du site</a> pour plus d'informations."
+msgstr "La conexión con el sitio web están temporalmente suspendidas. ${contact_info} para mayor información."
 
