@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BelgianEidAuthPlugin 0.1\n"
 "POT-Creation-Date: 2011-02-28 21:35+0000\n"
-"PO-Revision-Date: 2011-03-01 09:38-0400\n"
+"PO-Revision-Date: 2011-03-03 10:41-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,38 +46,38 @@ msgstr "Usted debe habitar las cookies antes que usted pueda iniciar sesión"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:31
 msgid "You must first subscribe to the site"
-msgstr "Vous n'êtes pas encore inscrit sur notre site. Vous devez préalablement vous inscrire en complétant le formulaire suivant."
+msgstr "Usted no se ha registrado en nuestro sitio. Primero debe registrarse completando el siguiente formulario."
 
 #. Default: "You do not have sufficient privileges to view this page. If you believe you are receiving this message in error, please send an e-mail to"
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:24
 msgid "description_no_privileges"
-msgstr ""
+msgstr "Usted no tiene suficientes privilegios para ver esta página. Si usted cree que usted está recibiendo este mensaje por error, por favor, envíe un e-mail a"
 
 #. Default: "You will receive an e-mail shortly containing a URL that will allow you to set your password. When you receive this e-mail, please follow the link to complete your registration process. NOTE: The password reset URL will expire in ${time} hours. If your password reset request expires, you may use the \"Forgot your password\" link to generate another password reset request."
 #: ../skins/VenezuelanEidAuthPlugin/registered.pt:33
 msgid "description_password_reset_or_registered"
-msgstr ""
+msgstr "Usted recibirá un correo electrónico en breve que contiene una dirección URL que le permitirá configurar su contraseña. Cuando reciba este correo electrónico, por favor, siga el enlace para completar el proceso de registro. NOTA: La dirección URL de restablecimiento de contraseña expirará en ${time} horas. Si su petición de restablecimiento de la contraseña caduca, puede utilizar el \"¿Has olvidado tu contraseña\" para generar una nueva solicitud de restablecimiento de contraseña."
 
 #. Default: "Because you are logged in via HTTP authentication, the only way to log out is to quit your web browser."
 #: ./skins/plone_login/logged_out.pt
 msgid "description_quit_to_log_out"
-msgstr ""
+msgstr "Debido a que usted se ha identificado a través de autenticación HTTP, la única manera de salir es a salir de su navegador web."
 
 #. Default: "You have been registered."
 #: ../skins/VenezuelanEidAuthPlugin/registered.pt:23
 msgid "description_you_are_registered"
-msgstr ""
+msgstr "Usted ha sido registrado."
 
 #. Default: "Click the button to log in immediately."
 #: ../skins/VenezuelanEidAuthPlugin/registered.pt:41
 msgid "description_you_can_log_on_now"
-msgstr ""
+msgstr "Haga clic en el botón para iniciar sesión inmediatamente."
 
 #. Default: "Cookies are not enabled. You must ${enable_cookies} before you can log in."
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:67
 #: ../skins/VenezuelanEidAuthPlugin/registered.pt:46
 msgid "enable_cookies_message"
-msgstr ""
+msgstr "Las cookies no están habilitadas. Usted debe ${enable_cookies} antes de iniciar sesión de usuario."
 
 #. Default: "Insufficient Privileges"
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:22
@@ -97,7 +97,7 @@ msgstr "Por favor, inicie la sesión"
 #. Default: "Sign-in failure"
 #: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:11
 msgid "heading_sign_in_failure_auth"
-msgstr ""
+msgstr "Registro fallo"
 
 #. Default: "Welcome!"
 #: ../skins/VenezuelanEidAuthPlugin/registered.pt:19
@@ -107,7 +107,7 @@ msgstr "Bienvenido!"
 #. Default: "Case sensitive, make sure caps lock is not enabled."
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:176
 msgid "help_capslock_password"
-msgstr ""
+msgstr "Sensible a mayúsculas y minúsculas, por favor, verifique que la tecla de mayúsculas no está activa."
 
 #. Default: "connect with your eID card"
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:85
@@ -118,7 +118,7 @@ msgstr "conectarse con su tarjeta de identificación electrónica"
 #. Default: "Login names are case sensitive, make sure the caps lock key is not enabled."
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:150
 msgid "help_login_name_caps"
-msgstr "Los nombres de usuario son sensibles a mayúsculas y minúsculas, asegúrese de que la tecla de Mayusculas o está habilitado."
+msgstr "Los nombres de usuario son sensibles a mayúsculas y minúsculas, asegúrese de que la tecla de Mayúsculas o está habilitado."
 
 #. Default: "If you have forgotten your password, ${click_here}."
 #: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:229
