@@ -1,8 +1,8 @@
 i18ndude rebuild-pot --pot ./VenezuelanEidAuthPlugin.pot --merge ./manual.pot --create venezuelaneidauthplugin ../
 i18ndude sync --pot ./VenezuelanEidAuthPlugin.pot ./VenezuelanEidAuthPlugin-*.po
 
-i18ndude rebuild-pot --pot plone-VenezuelanEidAuthPlugin.pot --merge ./plone-manual.pot --create plone ../skins/
-i18ndude sync --pot plone-VenezuelanEidAuthPlugin.pot plone-VenezuelanEidAuthPlugin-*.po
+i18ndude rebuild-pot --pot ./plone-VenezuelanEidAuthPlugin.pot --merge ./plone-manual.pot --create plone ../skins/
+i18ndude sync --pot ./plone-VenezuelanEidAuthPlugin.pot ./plone-VenezuelanEidAuthPlugin-*.po
 
 ERRORS=`find ../ -name "*pt" | xargs i18ndude find-untranslated | grep -e '^-ERROR' | wc -l`
 WARNINGS=`find ../ -name "*pt" | xargs i18ndude find-untranslated | grep -e '^-WARN' | wc -l`
