@@ -1,12 +1,12 @@
-PRESENTACIÓN
-
+PRESENTACIÓN :
+==============
  VenezuelanEidAuthPlugin es un componente de autenticación para PAS (PluggableAuthService).
  Este componente permite que un usuario se identifique con la ayuda de su tarjeta de identidad electrónica venezolana.
 
  La identificación por nombre de usuario y contraseña convencionales aún funciona, es decir es opcional.
 
-INSTALACIÓN
-
+INSTALACIÓN :
+=============
  Advertencia: este componente necesita PluggableAuthService versión 1.2 (no se ha probado con versiones superiores). 
 
  Probado en Plone 2.5rc2, Plone 2.5rc3, Plone 2.5. 
@@ -27,11 +27,12 @@ INSTALACIÓN
  Visita www.communesplone.org para más detalles.
 
 
-MODIFICACIONES DE PLONE
+MODIFICACIONES DE PLONE :
+=========================
 
  Modificaciones automáticas :
    * La acción de acceso (el enlace para conectarse) de Plone cambia la dirección URL, ya no llama a la página actual "login_form" para agregar un nombre de usuario y contraseña, sino que al usuario se le envía a una página en la que puede escoger a su modo de conexión: el modo clásico (nombre de usuario + contraseña) o el modo seguro (conexión identificación electrónica).
 
- Modificaciones manuales:
+ Modificaciones manuales :
    * Para los usuarios que no quiere la relación de "conectar con una tarjeta de identificación electrónica" es mejor para quitar el portlet_login de left_slots y right_slots que sólo permite la conexión por defecto con nombre de usuario y contraseña, y luego personalizar el portlet_login para conectarse también con un vínculo de "conexión identificación electrónica".
    * Una propiedad para el Registro Nacional debe existir en portal_memberdata de conciliar entre la tarjeta de identidad electrónica y la cuenta de Zope. La instalación del producto CPDescriptive evitar hacerlo manualmente.
