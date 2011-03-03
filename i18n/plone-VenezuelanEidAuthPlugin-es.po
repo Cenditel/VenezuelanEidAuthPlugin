@@ -1,12 +1,12 @@
 # translation of BelgianEidAuthPlugin.po to Spanish
 # Leonardo Caballero <leonardocaballero@gmail.com>, 2009.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: BelgianEidAuthPlugin 0.1\n"
-"POT-Creation-Date: 2009-10-31 12:42+0000\n"
-"PO-Revision-Date: 2009-05-05 16:20-0400\n"
-"Last-Translator: Leonardo Caballero <leonardocaballero@gmail.com>\n"
+"POT-Creation-Date: 2011-02-28 21:35+0000\n"
+"PO-Revision-Date: 2011-03-01 09:38-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,82 +20,79 @@ msgstr ""
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
 #: ../skins/VenezuelanEidAuthPlugin/logged_in.cpy:22
+#: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:52
 msgid "Login failed"
-msgstr ""
+msgstr "Inicio de sesión fallida"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:49
 msgid "Login name not found."
-msgstr ""
+msgstr "Nombre de usuario no encontrado"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:51
 msgid "Password incorrect."
-msgstr ""
+msgstr "Contraseña incorrecta"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:42
 msgid "Please enter your login name."
-msgstr ""
+msgstr "Por favor, ingrese su nombre de usuario."
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:44
 msgid "Please enter your password."
-msgstr ""
+msgstr "Por favor, ingrese su contraseña."
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:21
 msgid "You must enable cookies before you can log in."
-msgstr ""
+msgstr "Usted debe habitar las cookies antes que usted pueda iniciar sesión"
 
 #: ../skins/VenezuelanEidAuthPlugin/login_form_validate.vpy:31
 msgid "You must first subscribe to the site"
 msgstr "Vous n'êtes pas encore inscrit sur notre site. Vous devez préalablement vous inscrire en complétant le formulaire suivant."
 
-#. Default: "If you do not have an account here, head over to the ${registration_form}."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:51
-msgid "description_no_account"
-msgstr ""
-
-#. Default: "registration form"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:52
-msgid "description_no_account_registration_linktext"
-msgstr ""
-
-#. Default: "You do not have sufficient privileges to view this page.  If you believe you are receiving this message in error, please send an e-mail to"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:21
+#. Default: "You do not have sufficient privileges to view this page. If you believe you are receiving this message in error, please send an e-mail to"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:24
 msgid "description_no_privileges"
 msgstr ""
 
 #. Default: "You will receive an e-mail shortly containing a URL that will allow you to set your password. When you receive this e-mail, please follow the link to complete your registration process. NOTE: The password reset URL will expire in ${time} hours. If your password reset request expires, you may use the \"Forgot your password\" link to generate another password reset request."
-#: ../skins/VenezuelanEidAuthPlugin/registered.pt:31
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:33
 msgid "description_password_reset_or_registered"
 msgstr ""
 
+#. Default: "Because you are logged in via HTTP authentication, the only way to log out is to quit your web browser."
+#: ./skins/plone_login/logged_out.pt
+msgid "description_quit_to_log_out"
+msgstr ""
+
 #. Default: "You have been registered."
-#: ../skins/VenezuelanEidAuthPlugin/registered.pt:21
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:23
 msgid "description_you_are_registered"
 msgstr ""
 
 #. Default: "Click the button to log in immediately."
-#: ../skins/VenezuelanEidAuthPlugin/registered.pt:39
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:41
 msgid "description_you_can_log_on_now"
 msgstr ""
 
 #. Default: "Cookies are not enabled. You must ${enable_cookies} before you can log in."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:63
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:67
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:46
 msgid "enable_cookies_message"
 msgstr ""
 
 #. Default: "Insufficient Privileges"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:19
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:22
 msgid "heading_no_privileges"
-msgstr ""
+msgstr "Privilegios insuficientes"
 
 #. Default: "Personal tools"
 #: ../skins/VenezuelanEidAuthPlugin/global_personalbar.pt:13
 msgid "heading_personal_tools"
-msgstr ""
+msgstr "Herramientas Personal"
 
 #. Default: "Please log in"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:43
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:47
 msgid "heading_sign_in"
-msgstr ""
+msgstr "Por favor, inicie la sesión"
 
 #. Default: "Sign-in failure"
 #: ../skins/VenezuelanEidAuthPlugin/login_eid_failed.pt:11
@@ -103,78 +100,80 @@ msgid "heading_sign_in_failure_auth"
 msgstr ""
 
 #. Default: "Welcome!"
-#: ../skins/VenezuelanEidAuthPlugin/registered.pt:17
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:19
 msgid "heading_welcome"
-msgstr ""
+msgstr "Bienvenido!"
 
 #. Default: "Case sensitive, make sure caps lock is not enabled."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:166
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:176
 msgid "help_capslock_password"
 msgstr ""
 
+#. Default: "connect with your eID card"
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:85
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:93
+msgid "help_login_eid_card"
+msgstr "conectarse con su tarjeta de identificación electrónica"
+
 #. Default: "Login names are case sensitive, make sure the caps lock key is not enabled."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:140
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:150
 msgid "help_login_name_caps"
-msgstr ""
+msgstr "Los nombres de usuario son sensibles a mayúsculas y minúsculas, asegúrese de que la tecla de Mayusculas o está habilitado."
 
 #. Default: "If you have forgotten your password, ${click_here}."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:219
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:229
 msgid "help_password_retrieval"
-msgstr ""
+msgstr "Si usted aolvido su contraseña, ${click_here}."
 
 #. Default: "Check this to have your user name filled in automatically when you log in later."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:197
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:207
 msgid "help_remember_my_name"
-msgstr ""
+msgstr "Marque esta opción para que su nombre de usuario se rellene automáticamente al iniciar sesión más tarde."
 
 #. Default: "click here to retrieve it"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:220
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:230
 msgid "label_click_here_to_retrieve"
-msgstr ""
+msgstr "haga clic aquí para recuperarla"
 
 #. Default: "enable cookies"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:64
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:68
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:47
 msgid "label_enable_cookies"
-msgstr ""
+msgstr "habilitar cookies"
 
 #. Default: "Log in"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:101
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:107
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:81
 msgid "label_log_in"
-msgstr ""
+msgstr "Inicio de sesión"
 
 #. Default: "Login Name"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:137
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:147
 msgid "label_login_name"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #. Default: "Password"
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:162
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:172
 msgid "label_password"
-msgstr ""
+msgstr "Contraseña"
 
 #. Default: "Remember my name."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:195
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:205
 msgid "label_remember_my_name"
-msgstr ""
+msgstr "Recordar nombre de usuario"
 
 #. Default: "While cookie authentication is disabled, cookie-based login is not available."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:67
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:71
 msgid "login_form_disabled"
-msgstr ""
+msgstr "Mientras la autenticación por cookie este deshabilitada, los inicio de sesión de usuario basados en cookie no estarán disponible."
 
 #. Default: "Cookie authentication has been disabled."
-#: ../skins/VenezuelanEidAuthPlugin/registered.pt:10
+#: ../skins/VenezuelanEidAuthPlugin/registered.pt:12
 msgid "registered_disabled"
-msgstr ""
+msgstr "La autenticación por Cookie ha sido deshabilitado."
 
 #. Default: "Please log out or exit your browser when you're done."
-#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:225
+#: ../skins/VenezuelanEidAuthPlugin/login_form.cpt:235
 msgid "remember_to_log_out"
-msgstr ""
-
-#. Default: "Because you are logged in via HTTP authentication, the only way to log out is to quit your web browser."
-#: ./skins/plone_login/logged_out.pt
-msgid "description_quit_to_log_out"
-msgstr "Parce que vous êtes connecté(e) via l'authentification HTTP (par exemple avec votre carte d'identité électronique), la seule façon de vous déconnecter est de fermer votre navigateur."
-
+msgstr "Por favor, cierre la sesión de usuario o salga de su navegador cuando usted haya terminado."
 
