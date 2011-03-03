@@ -1,0 +1,164 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-02-28 20:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: venezuelaneidauthplugin\n"
+
+#join_form.pt
+#. Default: "If you forget your manual login (username and password),<a href='mail_password_form?userid=${member_id}'>please click here.</a>"
+msgid "help_about_password"
+msgstr ""
+
+#. Default: "unable to get issuer certificate"
+msgid "errorNb2"
+msgstr ""
+
+#. Default: "unable to get CRL"
+msgid "errorNb3"
+msgstr ""
+
+#. Default: "unable to decrypt certificate signature"
+msgid "errorNb4"
+msgstr ""
+
+#. Default: "unable to decrypt CRL signature"
+msgid "errorNb5"
+msgstr ""
+
+#. Default: "unable to decode issuer public key"
+msgid "errorNb6"
+msgstr ""
+
+#. Default: "certificate signature failure"
+msgid "errorNb7"
+msgstr ""
+
+#. Default: "CRL signature failure"
+msgid "errorNb8"
+msgstr ""
+
+#. Default: "certificate not yet valid"
+msgid "errorNb9"
+msgstr ""
+
+#. Default: "certificate has expired"
+msgid "errorNb10"
+msgstr ""
+
+#. Default: "CRL not yet valid"
+msgid "errorNb11"
+msgstr ""
+
+#. Default: "CRL has expired"
+msgid "errorNb12"
+msgstr ""
+
+#. Default: "error in certificate 'not before' field"
+msgid "errorNb13"
+msgstr ""
+
+#. Default: "error in certificate 'not after' field"
+msgid "errorNb14"
+msgstr ""
+
+#. Default: "error in CRL 'last update' field"
+msgid "errorNb15"
+msgstr ""
+
+#. Default: "error in CRL 'next update' field"
+msgid "errorNb16"
+msgstr ""
+
+#. Default: "out of memory"
+msgid "errorNb17"
+msgstr ""
+
+#. Default: "depth zero self signed certificate"
+msgid "errorNb18"
+msgstr ""
+
+#. Default: "self signed certificate in chain"
+msgid "errorNb19"
+msgstr ""
+
+#. Default: "unable to get issuer certificate locally"
+msgid "errorNb20"
+msgstr ""
+
+#. Default: "unable to verify leaf signature"
+msgid "errorNb21"
+msgstr ""
+
+#. Default: "certificate chain too long"
+msgid "errorNb22"
+msgstr ""
+
+#. Default: "certificate revoked"
+msgid "errorNb23"
+msgstr ""
+
+#. Default: "invalid certification authority"
+msgid "errorNb24"
+msgstr ""
+
+#. Default: "path length exceeded"
+msgid "errorNb25"
+msgstr ""
+
+#. Default: "invalid purpose"
+msgid "errorNb26"
+msgstr ""
+
+#. Default: "certificate not trusted"
+msgid "errorNb27"
+msgstr ""
+
+#. Default: "certificate rejected, or no certificate provided"
+msgid "errorNb28"
+msgstr ""
+
+#. Default: "subject issuer mismatch"
+msgid "errorNb29"
+msgstr ""
+
+#. Default: "'akid' skid mismatch"
+msgid "errorNb30"
+msgstr ""
+
+#. Default: "'akid' issuer serial mismatch"
+msgid "errorNb31"
+msgstr ""
+
+#. Default: "'keyusage' different from 'certsign'"
+msgid "errorNb32"
+msgstr ""
+
+#. Default: "unable to get CRL issuer"
+msgid "errorNb33"
+msgstr ""
+
+#. Default: "unhandled critical extension"
+msgid "errorNb34"
+msgstr ""
+
+#. Default: "'keyusage' not for CRL signing"
+msgid "errorNb35"
+msgstr ""
+
+#. Default: "unhandled critical CRL extension"
+msgid "errorNb36"
+msgstr ""
+
